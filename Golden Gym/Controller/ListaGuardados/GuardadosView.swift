@@ -7,14 +7,11 @@
 //
 
 import UIKit
-import RxSwift
-import RxCocoa
 
 class GuardadosView: UITableViewController {
     
     var guardados = [CalculatorModel]()
     let controller = CalculatorController()
-    var disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,19 +19,11 @@ class GuardadosView: UITableViewController {
         guardados = self.controller.getData()
         self.tableView.reloadData()
 
-//        Store.instance.calculados.asObservable()
-//            .subscribe(onNext: {
-//                guardado in
-//                
-//                self.guardados = guardado
-//                self.tableView.reloadData()
-//            }).disposed(by: disposeBag)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         guardados = self.controller.getData()
         self.tableView.reloadData()
-//        Esto es un ejemplo de como tambien se podria hacer
     }
     
     override func didReceiveMemoryWarning() {
