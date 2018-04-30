@@ -17,6 +17,8 @@
 		24BE74B020977F9E001BD90F /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BE74AF20977F9E001BD90F /* CalculatorModel.swift */; };
 		24BE74B22097824F001BD90F /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BE74B12097824F001BD90F /* Store.swift */; };
 		24BE74B820978574001BD90F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24BE74B720978574001BD90F /* Info.plist */; };
+		24BE74BB209791D2001BD90F /* GuardadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BE74BA209791D2001BD90F /* GuardadosView.swift */; };
+		24BE74BD20979E67001BD90F /* GuardadosViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BE74BC20979E67001BD90F /* GuardadosViewCell.swift */; };
 		48ADF1836D31781BC1EB0EE3 /* Pods_Golden_Gym.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843EBFEA3B7F089E9338784F /* Pods_Golden_Gym.framework */; };
 		F14F0BEAC4C45D30598DFF56 /* Pods_Golden_GymTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E436DC091A419DAAC67EB9 /* Pods_Golden_GymTests.framework */; };
 /* End PBXBuildFile section */
@@ -44,7 +46,9 @@
 		24156AC820977936002B438D /* CalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorController.swift; sourceTree = "<group>"; };
 		24BE74AF20977F9E001BD90F /* CalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
 		24BE74B12097824F001BD90F /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		24BE74B720978574001BD90F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Golden Gym/Model/Info.plist"; sourceTree = SOURCE_ROOT; };
+		24BE74B720978574001BD90F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Golden Gym/Info.plist"; sourceTree = SOURCE_ROOT; };
+		24BE74BA209791D2001BD90F /* GuardadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardadosView.swift; sourceTree = "<group>"; };
+		24BE74BC20979E67001BD90F /* GuardadosViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardadosViewCell.swift; sourceTree = "<group>"; };
 		75E2CD4F0C458E89FF1CB3E9 /* Pods-Golden Gym.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golden Gym.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Golden Gym/Pods-Golden Gym.debug.xcconfig"; sourceTree = "<group>"; };
 		843EBFEA3B7F089E9338784F /* Pods_Golden_Gym.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golden_Gym.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2E7EF6FB29EF0B8845C7A2 /* Pods-Golden GymTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golden GymTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Golden GymTests/Pods-Golden GymTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 		24156AA4209773AC002B438D /* Golden Gym */ = {
 			isa = PBXGroup;
 			children = (
+				24BE74B720978574001BD90F /* Info.plist */,
 				24156ACC20977CA6002B438D /* Model */,
 				24156ACB20977C9E002B438D /* Controller */,
 				24156ACA20977C7B002B438D /* View */,
@@ -136,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				24156AA5209773AC002B438D /* AppDelegate.swift */,
+				24BE74B920978E63001BD90F /* ListaGuardados */,
 				24156AC5209778FF002B438D /* Calculator */,
 			);
 			path = Controller;
@@ -145,9 +151,17 @@
 			isa = PBXGroup;
 			children = (
 				24BE74B12097824F001BD90F /* Store.swift */,
-				24BE74B720978574001BD90F /* Info.plist */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		24BE74B920978E63001BD90F /* ListaGuardados */ = {
+			isa = PBXGroup;
+			children = (
+				24BE74BA209791D2001BD90F /* GuardadosView.swift */,
+				24BE74BC20979E67001BD90F /* GuardadosViewCell.swift */,
+			);
+			path = ListaGuardados;
 			sourceTree = "<group>";
 		};
 		2B860B61CE18B1231EC2ED48 /* Frameworks */ = {
@@ -335,9 +349,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				24BE74B22097824F001BD90F /* Store.swift in Sources */,
+				24BE74BB209791D2001BD90F /* GuardadosView.swift in Sources */,
 				24156AA6209773AC002B438D /* AppDelegate.swift in Sources */,
 				24156AC72097792B002B438D /* CalulatorView.swift in Sources */,
 				24156AC920977936002B438D /* CalculatorController.swift in Sources */,
+				24BE74BD20979E67001BD90F /* GuardadosViewCell.swift in Sources */,
 				24BE74B020977F9E001BD90F /* CalculatorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

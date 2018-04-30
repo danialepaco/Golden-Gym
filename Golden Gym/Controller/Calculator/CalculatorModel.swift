@@ -14,36 +14,40 @@ class CalculatorModel: NSObject, NSCoding {
     var peso: Float
     var altura: Float
     var edad: Int
-    var sexo: Bool
+    var esHombre: Bool
     var fecha: String
     var imc: Float
+    var nombre: String
 
-    init(peso: Float,altura: Float, edad: Int,sexo: Bool,fecha: String,imc: Float) {
+    init(peso: Float,altura: Float, edad: Int,esHombre: Bool,fecha: String,imc: Float,nombre:String) {
         
         self.peso = peso
         self.altura = altura
         self.edad = edad
-        self.sexo = sexo
+        self.esHombre = esHombre
         self.fecha = fecha
         self.imc = imc
+        self.nombre = nombre
+
     }
     
     required init?(coder aDecoder: NSCoder) {
         self.peso = aDecoder.decodeFloat(forKey: "peso")
         self.altura = aDecoder.decodeFloat(forKey: "altura")
         self.edad = aDecoder.decodeInteger(forKey: "edad")
-        self.sexo = aDecoder.decodeBool(forKey: "sexo")
+        self.esHombre = aDecoder.decodeBool(forKey: "esHombre")
         self.fecha = aDecoder.decodeObject(forKey: "fecha") as? String ?? ""
+        self.nombre = aDecoder.decodeObject(forKey: "nombre") as? String ?? ""
         self.imc = aDecoder.decodeFloat(forKey: "imc")
-
     }
     
     func encode(with aCoder: NSCoder) {
         aCoder.encode(peso, forKey: "peso")
         aCoder.encode(altura, forKey: "altura")
         aCoder.encode(edad, forKey: "edad")
-        aCoder.encode(sexo, forKey: "sexo")
+        aCoder.encode(esHombre, forKey: "esHombre")
         aCoder.encode(fecha, forKey: "fecha")
+        aCoder.encode(nombre, forKey: "nombre")
         aCoder.encode(imc, forKey: "imc")
     }
 }
