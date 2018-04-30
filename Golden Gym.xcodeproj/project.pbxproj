@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24156AA6209773AC002B438D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24156AA5209773AC002B438D /* AppDelegate.swift */; };
+		24156AA8209773AC002B438D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24156AA7209773AC002B438D /* ViewController.swift */; };
+		24156AAB209773AC002B438D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24156AA9209773AC002B438D /* Main.storyboard */; };
+		24156AAD209773AF002B438D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24156AAC209773AF002B438D /* Assets.xcassets */; };
+		24156AB0209773AF002B438D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24156AAE209773AF002B438D /* LaunchScreen.storyboard */; };
+		24156ABB209773AF002B438D /* Golden_GymTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24156ABA209773AF002B438D /* Golden_GymTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24156AB7209773AF002B438D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24156A9A209773AC002B438D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24156AA1209773AC002B438D;
+			remoteInfo = "Golden Gym";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24156AA2209773AC002B438D /* Golden Gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golden Gym.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24156AA5209773AC002B438D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24156AA7209773AC002B438D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24156AAA209773AC002B438D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24156AAC209773AF002B438D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24156AAF209773AF002B438D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24156AB1209773AF002B438D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24156AB6209773AF002B438D /* Golden GymTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golden GymTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24156ABA209773AF002B438D /* Golden_GymTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golden_GymTests.swift; sourceTree = "<group>"; };
+		24156ABC209773AF002B438D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24156A9F209773AC002B438D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24156AB3209773AF002B438D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24156A99209773AC002B438D = {
+			isa = PBXGroup;
+			children = (
+				24156AA4209773AC002B438D /* Golden Gym */,
+				24156AB9209773AF002B438D /* Golden GymTests */,
+				24156AA3209773AC002B438D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24156AA3209773AC002B438D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24156AA2209773AC002B438D /* Golden Gym.app */,
+				24156AB6209773AF002B438D /* Golden GymTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24156AA4209773AC002B438D /* Golden Gym */ = {
+			isa = PBXGroup;
+			children = (
+				24156AA5209773AC002B438D /* AppDelegate.swift */,
+				24156AA7209773AC002B438D /* ViewController.swift */,
+				24156AA9209773AC002B438D /* Main.storyboard */,
+				24156AAC209773AF002B438D /* Assets.xcassets */,
+				24156AAE209773AF002B438D /* LaunchScreen.storyboard */,
+				24156AB1209773AF002B438D /* Info.plist */,
+			);
+			path = "Golden Gym";
+			sourceTree = "<group>";
+		};
+		24156AB9209773AF002B438D /* Golden GymTests */ = {
+			isa = PBXGroup;
+			children = (
+				24156ABA209773AF002B438D /* Golden_GymTests.swift */,
+				24156ABC209773AF002B438D /* Info.plist */,
+			);
+			path = "Golden GymTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24156AA1209773AC002B438D /* Golden Gym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24156ABF209773AF002B438D /* Build configuration list for PBXNativeTarget "Golden Gym" */;
+			buildPhases = (
+				24156A9E209773AC002B438D /* Sources */,
+				24156A9F209773AC002B438D /* Frameworks */,
+				24156AA0209773AC002B438D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Golden Gym";
+			productName = "Golden Gym";
+			productReference = 24156AA2209773AC002B438D /* Golden Gym.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24156AB5209773AF002B438D /* Golden GymTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24156AC2209773AF002B438D /* Build configuration list for PBXNativeTarget "Golden GymTests" */;
+			buildPhases = (
+				24156AB2209773AF002B438D /* Sources */,
+				24156AB3209773AF002B438D /* Frameworks */,
+				24156AB4209773AF002B438D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24156AB8209773AF002B438D /* PBXTargetDependency */,
+			);
+			name = "Golden GymTests";
+			productName = "Golden GymTests";
+			productReference = 24156AB6209773AF002B438D /* Golden GymTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24156A9A209773AC002B438D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Daniel Parra";
+				TargetAttributes = {
+					24156AA1209773AC002B438D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					24156AB5209773AF002B438D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 24156AA1209773AC002B438D;
+					};
+				};
+			};
+			buildConfigurationList = 24156A9D209773AC002B438D /* Build configuration list for PBXProject "Golden Gym" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24156A99209773AC002B438D;
+			productRefGroup = 24156AA3209773AC002B438D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24156AA1209773AC002B438D /* Golden Gym */,
+				24156AB5209773AF002B438D /* Golden GymTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24156AA0209773AC002B438D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24156AB0209773AF002B438D /* LaunchScreen.storyboard in Resources */,
+				24156AAD209773AF002B438D /* Assets.xcassets in Resources */,
+				24156AAB209773AC002B438D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24156AB4209773AF002B438D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24156A9E209773AC002B438D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24156AA8209773AC002B438D /* ViewController.swift in Sources */,
+				24156AA6209773AC002B438D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24156AB2209773AF002B438D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24156ABB209773AF002B438D /* Golden_GymTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24156AB8209773AF002B438D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24156AA1209773AC002B438D /* Golden Gym */;
+			targetProxy = 24156AB7209773AF002B438D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24156AA9209773AC002B438D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24156AAA209773AC002B438D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24156AAE209773AF002B438D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24156AAF209773AF002B438D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24156ABD209773AF002B438D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24156ABE209773AF002B438D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24156AC0209773AF002B438D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2U7ETVQ2D;
+				INFOPLIST_FILE = "Golden Gym/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "danialepaco.Golden-Gym";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24156AC1209773AF002B438D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2U7ETVQ2D;
+				INFOPLIST_FILE = "Golden Gym/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "danialepaco.Golden-Gym";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24156AC3209773AF002B438D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2U7ETVQ2D;
+				INFOPLIST_FILE = "Golden GymTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "danialepaco.Golden-GymTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Golden Gym.app/Golden Gym";
+			};
+			name = Debug;
+		};
+		24156AC4209773AF002B438D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2U7ETVQ2D;
+				INFOPLIST_FILE = "Golden GymTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "danialepaco.Golden-GymTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Golden Gym.app/Golden Gym";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24156A9D209773AC002B438D /* Build configuration list for PBXProject "Golden Gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24156ABD209773AF002B438D /* Debug */,
+				24156ABE209773AF002B438D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24156ABF209773AF002B438D /* Build configuration list for PBXNativeTarget "Golden Gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24156AC0209773AF002B438D /* Debug */,
+				24156AC1209773AF002B438D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24156AC2209773AF002B438D /* Build configuration list for PBXNativeTarget "Golden GymTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24156AC3209773AF002B438D /* Debug */,
+				24156AC4209773AF002B438D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24156A9A209773AC002B438D /* Project object */;
+}
